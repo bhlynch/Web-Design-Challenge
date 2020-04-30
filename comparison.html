@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Bootstrap Visualization Temperatute</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand d-inline p-3 ml-8 bg-info text-white mb-0 pb-0" href="index.html">Lattitude</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="temp.html">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+             
+                </div>
+              </li>
+            </ul>
+          </div>
+      </nav>
+
+
+<div class="container">
+    <section class="row">
+        <div class="col-md-6">
+            <div class="plot-content">
+            <h1 class="plot-header">Summary: Latitude vs. Temperature</h1>
+            <hr>
+            <img src="./visualizations/Fig1.png" alt="Latitude vs. Temperature" id="landing-image">
+            <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, howerver, is the fact that the southern hemispher tends to be warmer this time of the year than the northern hemisphere. This may be due to the tilt of the earth at that time of the year this data was gathered.</p>
+        </div>
+ </div>
+
+<div class="container">
+    <section class="row">
+        <div class="col-md-6">
+            <div class="plot-content">
+            <h1 class="plot-header">Summary: Latitude vs. Humidity</h1>
+            <hr>
+            <img src="./visualizations/Fig2.png" alt="Latitude vs. Temperature" id="landing-image">
+            <p>There does not appear to be any significant correlation between latitude and humidity. It does apper that the lowest humidities are further away from the equator while cities close to the equator tend to be higher in humidity though, none of this appears in any conclusivive fashion.</p>
+        </div>
+ </div>
+
+<div class="container">
+    <section class="row">
+        <div class="col-md-6">
+            <div class="plot-content">
+            <h1 class="plot-header">Summary: Latitude vs. Cloudiness</h1>
+            <hr>
+            <img src="./visualizations/Fig3.png" alt="Latitude vs. Temperature" id="landing-image">
+            <p>As seen in the graph, there is no discernable correlation between cloudiness and latitide.</p>
+        </div>
+ </div>
+
+<div class="container">
+    <section class="row">
+        <div class="col-md-6">
+            <div class="plot-content">
+            <h1 class="plot-header">Summary: Latitude vs. Wind</h1>
+            <hr>
+            <img src="./visualizations/Fig4.png" alt="Latitude vs. Windiness" id="landing-image">
+            <p>There does not appear to be any strong correlation in this graph. Carefull observation will seem to indicate that wind speed is highest in northernmost regions but, this could be due to there being significantly results in the northern hemisphere.</p>
+        </div>
+ </div>
+
+ 
